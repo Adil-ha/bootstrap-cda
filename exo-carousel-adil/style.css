@@ -1,0 +1,107 @@
+.red {
+  background-color: red;
+  height: 500px;
+}
+.jaune {
+  background-color: yellow;
+  height: 500px;
+}
+.orange {
+  background-color: orange;
+  height: 500px;
+}
+.vert {
+  background-color: green;
+  height: 500px;
+}
+.bleu {
+  background-color: blue;
+  height: 500px;
+}
+
+.div {
+  height: 500px;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.de {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border-radius: 5px;
+  position: relative;
+}
+.milieu {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.h2 {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.b2 {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.h3 {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+.b3 {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.h4 {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5px;
+}
+.b4 {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+}
+.transparant {
+  background-color: rgba(255, 255, 255, 0.37);
+  color: black;
+}
