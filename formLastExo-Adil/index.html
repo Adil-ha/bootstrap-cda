@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="m-3">
+      <div class="row row-cols-sm-1">
+        <div class="col-lg-8">
+          <div class="row g-3">
+            <div class="bg-dark text-light p-4 rounded mb-3">
+              <h1 class="display-4">
+                <span class="d-none d-md-inline">- Inscription -</span
+                ><span class="d-inline d-md-none">- Infos de base -</span>
+              </h1>
+              <hr />
+              <form>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
+                  <div class="col">
+                    <div class="mb-3 form-floating text-dark">
+                      <input
+                        class="form-control"
+                        type="text"
+                        id="firstname"
+                        name="firstname"
+                        placeholder=""
+                      />
+                      <label for="firstname">Prénom</label>
+                    </div>
+                    <div class="mb-3 form-floating text-dark">
+                      <input
+                        class="form-control"
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder=""
+                      />
+                      <label for="name">Nom</label>
+                    </div>
+                    <div class="mb-3 form-floating text-dark">
+                      <input
+                        class="form-control"
+                        type="text"
+                        id="nickname"
+                        name="nickname"
+                        placeholder=""
+                      />
+                      <label for="nickname">Pseudonyme</label>
+                    </div>
+
+                    <div class="mb-3 form-floating text-dark">
+                      <input
+                        class="form-control"
+                        type="mail"
+                        id="mail"
+                        name="mail"
+                        placeholder=""
+                      />
+                      <label for="mail">Adresse mail</label>
+                    </div>
+
+                    <div class="mb-3 form-floating text-dark">
+                      <input
+                        class="form-control"
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder=""
+                      />
+                      <label for="password">Mot de passe</label>
+                    </div>
+                    <div class="mb-3 form-floating text-dark">
+                      <input
+                        class="form-control"
+                        type="text"
+                        id="confirm"
+                        name="confirm"
+                        placeholder=""
+                      />
+                      <label for="confirm">Confirmation</label>
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+              <hr class="mt-0" />
+              <button class="btn btn-outline-light d-block ms-auto">
+                <i class="bi bi-send"></i> Envoyer
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="row g-3">
+            <div class="bg-dark text-light p-4 rounded g-3">
+              <h1 class="display-4">
+                <span class="d-none d-md-inline">- Vos Langues -</span
+                ><span class="d-inline d-md-none">- Inscription -</span>
+              </h1>
+              <hr />
+              <form>
+                <select
+                  multiple
+                  class="form-select mt-2"
+                  size="8"
+                  id="gender"
+                  id="languages"
+                  name="languages"
+                >
+                  <optgroup label="Europe">
+                    <option>Europe 1</option>
+                    <option>Europe 2</option>
+                    <option>Europe 3</option>
+                    <option>Europe 4</option>
+                    <option>Europe 5</option>
+                  </optgroup>
+                  <optgroup label="Asie">
+                    <option>Asie 1</option>
+                    <option>Asie 2</option>
+                    <option>Asie 3</option>
+                    <option>Asie 4</option>
+                    <option>Asie 5</option>
+                  </optgroup>
+                </select>
+              </form>
+
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
